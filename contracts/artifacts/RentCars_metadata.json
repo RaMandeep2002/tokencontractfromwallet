@@ -1,0 +1,149 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "carNumber",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "available",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct RentCars.CarDetails",
+						"name": "_carDetails",
+						"type": "tuple"
+					}
+				],
+				"name": "claimCar",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "carNumber",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "available",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct RentCars.CarDetails",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "userAddress",
+								"type": "address"
+							}
+						],
+						"internalType": "struct RentCars.UserDetails",
+						"name": "_userDetails",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "carNumber",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "available",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct RentCars.CarDetails",
+						"name": "_carDetails",
+						"type": "tuple"
+					}
+				],
+				"name": "rentCar",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "carNumber",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "available",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct RentCars.CarDetails",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/carRental.sol": "RentCars"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/carRental.sol": {
+			"keccak256": "0x2265ff03b6bc13f95e7ca952c4d833fabe3f34abb088a66de06bd374ea0e6adb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6b9fd7b71230760f3a299fef0a2d2a9245ac7bd0c917fcb5cde8307afc3c0d33",
+				"dweb:/ipfs/QmZrwvSWUzNaRC4AGsVNVvqwaqvKM2knzNeMS32hcN1Fbv"
+			]
+		}
+	},
+	"version": 1
+}

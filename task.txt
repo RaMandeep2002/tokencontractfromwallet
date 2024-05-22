@@ -1,0 +1,17 @@
+In my wallet address user has busdt
+I share key and address to you 
+Any one deposit bnb so that he can transfer funds bnb automatically transfer to another account
+
+
+Do the testing 
+Add usdt test in sepolia 
+I will add ether and try to transfer before I transfer my ether will send to another account
+
+
+
+
+
+async function getBalance(useraddess) {
+    const balance = await ethers.provider.getBalance(useraddess);
+    console.log("Balance of ", useraddess, " ==> ", balance)
+  }

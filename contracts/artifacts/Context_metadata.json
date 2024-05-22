@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GLCcoin.sol": "Context"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GLCcoin.sol": {
+			"keccak256": "0xb99a486ecc42fbe0959ff5f4183bac05fbe6b24e5f6281476a1cfb9449b6b145",
+			"urls": [
+				"bzz-raw://26ff23f98c5355517a214172ce841c0dd303d409b0e711291fb580f4c0e9ba59",
+				"dweb:/ipfs/QmVeQmugwDFUxDViRfNJffCJ2Bpi5UKNqZpgrBpqNJAjGy"
+			]
+		}
+	},
+	"version": 1
+}
